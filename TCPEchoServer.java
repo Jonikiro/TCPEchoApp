@@ -10,7 +10,7 @@ import java.net.Socket;
 public class TCPEchoServer {
     public static void main(String[] args) {
         try {
-            /* Create ServerSocker, assign it port 12900, give it a
+            /* Create ServerSocket, assign it port 12900, give it a
              *queue of 100, and bind it to IP address of localhost. */
             ServerSocket serverSocket = new ServerSocket(12900, 100,
                 InetAddress.getByName("localhost"));
